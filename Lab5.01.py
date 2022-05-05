@@ -33,3 +33,12 @@ delete entries (key, value pairs) from the dictionary.
 get the entire dictionary printed to the screen.
 Lesson 6.01 did not cover all the techniques for manipulating dictionaries that you will need to program these features. Search for the necessary information in the [Python tutorial about dictionaries][1] and the [advanced Python documentation about dictionaries][2].
 '''
+
+internet_dictionary = {
+'nbd': "nbd stands for 'No Big Deal'",
+'lol': "lol stands for 'Laugh Out Loud",
+'tbh': "tbh stands for 'To be honest'"
+}
+
+Answer = input("What common internet abbreviation would you like to look up? (lowercase letters only) > ")
+print(internet_dictionary[Answer])
